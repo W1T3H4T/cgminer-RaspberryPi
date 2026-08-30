@@ -1,3 +1,24 @@
+Version 4.13.6 - 15 Jun 2026
+
+- Gekko add BM die temp sensor init so telemetry versions can use it
+- Gekko correct telemetry V2.1 input current calc
+- Gekko add telemetry V3
+
+Version 4.13.5 - 22 Nov 2025
+
+- fix chip count bug in 4.13.4 for CompacA1
+
+Version 4.13.4 - 10 Sep 2025
+
+- Resolve Reset problem with CompacA2 miners
+
+Version 4.13.3 - 31 Jul 2025
+
+- CompacA2 linux and windows tested version for release
+- GSA2 will also work with BM1368 chips
+- add GSA2 1 chip BM1370 USB
+- add tentative GSA2 4 chip BM1370 Pod
+
 Version 4.13.1 - 10 June 2024
 
 - fix for GSA1

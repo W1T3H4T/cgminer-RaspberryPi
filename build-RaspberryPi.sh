@@ -1,6 +1,6 @@
 #!/bin/bash
 ##  ===========================================================================
-##  File    :   build-cgminer-wsl-ubuntu.sh
+##  File    :   build-RaspberryPi.sh
 ##  Notes   :   This script will build cgminer for GekkoScience Devices.
 ##          :   In Ubuntu/WSL/RaspberryPi environments
 ##  ===========================================================================
@@ -29,7 +29,7 @@ do_build() {
     automake
 
     AUTOGEN_PARAMS="--enable-gekko --enable-icarus"
-    CFLAGS="-O2 -march=native -fcommon -D_FORTIFY_SOURCE=2" ./autogen.sh $AUTOGEN_PARAMS
+    CFLAGS="-O2 -march=native -fcommon -D_FORTIFY_SOURCE=1" ./autogen.sh $AUTOGEN_PARAMS
     make
 }
 
